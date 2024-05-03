@@ -37,7 +37,7 @@ class ListaRecetas : AppCompatActivity() {
         DataBaseManager.getRecetas{ it-> var lista = it
 
 
-            var adapteReceta = RecetaAdapter(lista)
+            var adapteReceta = RecetaAdapter(lista,this)
             rv.layoutManager = LinearLayoutManager(this)
             rv!!.adapter = adapteReceta
 

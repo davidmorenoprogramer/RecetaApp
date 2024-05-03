@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UI.ListaRecetas">
+    <include layout="@layout/header"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recetasRecicle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

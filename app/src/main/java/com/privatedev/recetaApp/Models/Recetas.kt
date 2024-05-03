@@ -10,11 +10,11 @@ public class Recetas {
     var ingredientes: String = ""
     var imagen: String? = null
     var tipo: String = ""
-    var PasoUno: String = ""
-    var Pasodos: String = ""
-    var Pasotres: String = ""
-    var Pasocuatro: String = ""
-    var Pasocinco: String = ""
+    var pasoUno: String = ""
+    var pasodos: String = ""
+    var pasotres: String = ""
+    var pasocuatro: String = ""
+    var pasocinco: String = ""
 
     constructor(nombre:String,ingredientes:String, imagen: String?,tipo: String, PasoUno: String, Pasodos: String, Pasotres: String,Pasocuatro: String,Pasocinco: String){
 
@@ -22,11 +22,11 @@ public class Recetas {
         this.ingredientes = ingredientes;
         this.imagen = imagen;
         this.tipo = tipo;
-        this.PasoUno = PasoUno;
-        this.Pasodos = Pasodos;
-        this.Pasotres = Pasotres;
-        this.Pasocuatro = Pasocuatro;
-        this.Pasocinco = Pasocinco
+        this.pasoUno = PasoUno;
+        this.pasodos = Pasodos;
+        this.pasotres = Pasotres;
+        this.pasocuatro = Pasocuatro;
+        this.pasocinco = Pasocinco
     }
     public constructor() {
 

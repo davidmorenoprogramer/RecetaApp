@@ -9,5 +9,8 @@
     <color name="pink">#d83bdb</color>
     <color name="white">#FFFFFFFF</color>
     <color name="marron">#9b5b45</color>
+    <color name="gray">#d6d6d6</color>
+    <color name="black">#000000</color>
+    <color name="mar">#4cb8df</color>
 
 </resources>
