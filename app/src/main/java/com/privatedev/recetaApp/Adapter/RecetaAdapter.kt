@@ -49,7 +49,7 @@ class RecetaAdapter(private val RecetasArray: MutableList<Recetas>, private val 
                         .putExtra("nombre",recetas.nombre)
                         .putExtra("imagen",recetas.imagen)
                         .putExtra("ingredientes",recetas.ingredientes)
-                        .putExtra("paso1",recetas.pasoUno)
+                        .putExtra("paso1",recetas.pasouno)
                         .putExtra("paso2",recetas.pasodos)
                         .putExtra("paso3",recetas.pasotres)
                         .putExtra("paso4",recetas.pasocuatro)

@@ -10,7 +10,7 @@ public class Recetas {
     var ingredientes: String = ""
     var imagen: String? = null
     var tipo: String = ""
-    var pasoUno: String = ""
+    var pasouno: String = ""
     var pasodos: String = ""
     var pasotres: String = ""
     var pasocuatro: String = ""
@@ -22,7 +22,7 @@ public class Recetas {
         this.ingredientes = ingredientes;
         this.imagen = imagen;
         this.tipo = tipo;
-        this.pasoUno = PasoUno;
+        this.pasouno = PasoUno;
         this.pasodos = Pasodos;
         this.pasotres = Pasotres;
         this.pasocuatro = Pasocuatro;
